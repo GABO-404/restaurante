@@ -1,14 +1,23 @@
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 20px; 
+    background-image: url('../et.jpg'); 
+    background-size: cover;
+    background-position: ; 
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #abe6f5;
+    background-color: #f5deabcc;
 }
 .container {
     max-width: 900px;
     margin: 0 auto;
-    background-color: #0882a76b;
+    background-color: #c5b27f85;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -24,13 +33,13 @@ input[type="text"], textarea, input[type="date"],  input[type="email"], input[ty
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    border: 1px solid #bdd6d8;
+    border: 1px solid #f0ca9e;
     border-radius: 4px;
     resize: none;
-    background-color: #bdd6d8;
+    background-color: #f0ca9e;
 }
 input[type="submit"], button, .button {
-    background-color: #bdd6d8;
+    background-color: #f0ca9e;
     color: black;
     padding: 10px 15px;
     border: none;
@@ -39,7 +48,7 @@ input[type="submit"], button, .button {
 }
 
 input[type="submit"]:hover, button:hover, .button:hover {
-    background-color: #bdd6d8;
+    background-color: #f0ca9e;
     color: black;
 }
 table {
@@ -51,16 +60,16 @@ table {
 th, td {
     text-align: center;
     padding: 12px;
-    border-bottom: 1px solid #bdd6d8;
+    border-bottom: 1px solid #f0ca9e;
     color: black;
 }
 
 th {
-    background-color: #bdd6d8;
+    background-color: #f0ca9e;
 }
 
 tr:hover {
-    background-color: #bdd6d8;
+    background-color: #f0ca9e;
 }
 .actions {
     text-align: center;
@@ -69,7 +78,7 @@ tr:hover {
 }
 
 #formularioEdicion {
-    background-color: #bdd6d8;
+    background-color: #f0ca9e;
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
